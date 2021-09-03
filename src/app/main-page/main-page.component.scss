@@ -1,0 +1,75 @@
+.nav_details {
+  .logo1 {
+    width: 75px;
+  }
+}
+.navbar {
+  background-color: #070707 !important;
+}
+
+.fix-button {
+  border: #ed7200 2px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.footer {
+  // padding: 5rem 5rem 2rem 5rem;
+  background: #070707;
+}
+.logo_div {
+  .logo {
+    width: 120.75px;
+  }
+}
+.comp_info {
+}
+
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.text-end {
+  text-align: end;
+}
+.margin-left {
+  margin-left: 24rem;
+}
+.active {
+  border-bottom: 5px solid #ed7200;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .margin-left {
+    margin-left: 1rem !important;
+  }
+  .t-mobile {
+    font-size: 10px;
+  }
+  .active {
+    width: 100px;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .margin-left {
+    margin-left: 5rem;
+  }
+  .t-mobile {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .t-mobile {
+    font-size: 10px;
+  }
+}
